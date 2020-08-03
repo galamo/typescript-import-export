@@ -1,10 +1,13 @@
-interface IStrusture {
+export interface IStrusture {
     area: number;
     address: string;
     city: string;
 }
 
-export default class Structure implements IStrusture {
+export const emailToManager = "gal.amouyal@gmail.com";
+export const emailToManager2 = "gal.amouyal@gmail.com";
+
+export class Structure implements IStrusture {
     area: number;
     address: string;
     city: string;

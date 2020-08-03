@@ -1,8 +1,8 @@
-import { IStrusture, Structure } from "./Structure"
-import { Building } from "./Building";
+import { IStrusture } from "./Structure"
+import { Buildings } from "./Buildings";
 
 
-class Villa extends Building {
+export default class Villa extends Buildings {
     public floors: number
     constructor(structure: IStrusture, _nor: number, _floors: number) {
         super(structure, _nor)
